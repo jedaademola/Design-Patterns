@@ -12,5 +12,12 @@ public class Client {
         System.out.println("tStack length:" + tStack.size());
 
 
+        TargetQueue qStack = new Adapter(10);
+        System.out.println("qStack length:" + tStack.size());
+        System.out.println("qStack.isEmpty():" + tStack.isEmpty());
+        qStack.enQueue("boil");
+        System.out.println("qStack length:" + tStack.size());
+
+
     }
 }

@@ -2,9 +2,11 @@ package Lab3.adapterPattern;
 
 public interface TargetStack {
 
-    public void push(String str);
-    public String pop();
-    public boolean isEmpty();
+    void push(String str);
 
-    public int size();
+    String pop();
+
+    boolean isEmpty();
+
+    int size();
 }
