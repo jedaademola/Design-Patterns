@@ -1,3 +1,5 @@
+package Lab2;
+
 public class ThreadSafeSingleton {
 
     private static ThreadSafeSingleton instance = null;
