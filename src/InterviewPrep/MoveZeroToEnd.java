@@ -3,8 +3,6 @@ package InterviewPrep;
 import java.util.Scanner;
 
 public class MoveZeroToEnd {
-
-
         public static void main (String[] args)
         {
             //code

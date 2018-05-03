@@ -1,4 +1,4 @@
-package adapterPattern;
+package Lab3.adapterPattern;
 
 public class Adapter implements TargetStack,TargetQueue {
 
