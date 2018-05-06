@@ -3,11 +3,12 @@
  */
 package Lab5.abstractFactory;
 
-import mum.asd.abstractfactory.packaging.EverydayValue;
-import mum.asd.abstractfactory.packaging.Packaging;
-import mum.asd.abstractfactory.packaging.PlainPaper;
-import mum.asd.abstractfactory.packaging.ReusableShopper;
-import mum.asd.abstractfactory.type.PackagingType;
+
+import Lab5.abstractFactory.packCost.EverydayValue;
+import Lab5.abstractFactory.packCost.Packaging;
+import Lab5.abstractFactory.packCost.PlainPaper;
+import Lab5.abstractFactory.packCost.ReusableShopper;
+import Lab5.abstractFactory.type.PackagingType;
 
 public class AdultFactory extends PackagingFactory {
 
