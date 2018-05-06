@@ -23,8 +23,8 @@ public class Client {
         System.out.println("Queue");
         System.out.println("-----------------------------");
         TargetQueue qQueue = new Adapter(10);
-        System.out.println("Queue length:" + tStack.size());
-        System.out.println("Queue.isEmpty():" + tStack.isEmpty());
+        System.out.println("Queue length:" + qQueue.size());
+        System.out.println("Queue.isEmpty():" + qQueue.isEmpty());
         qQueue.enQueue("boil");
         qQueue.enQueue("eat");
 
@@ -32,6 +32,6 @@ public class Client {
         String data = qQueue.deQueue();
 
         System.out.println("Queue data dequeue:" + data);
-        System.out.println("Queue length after deQueue:" + qQueue.size());
+        System.out.println("Queue length after dequeue:" + qQueue.size());
     }
 }
