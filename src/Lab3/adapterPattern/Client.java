@@ -27,6 +27,7 @@ public class Client {
         System.out.println("Queue.isEmpty():" + tStack.isEmpty());
         qQueue.enQueue("boil");
         qQueue.enQueue("eat");
+
         System.out.println("Queue length before dequeue:" + qQueue.size());
         String data = qQueue.deQueue();
 
