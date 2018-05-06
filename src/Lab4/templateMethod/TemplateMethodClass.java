@@ -1,7 +1,7 @@
 package Lab4.templateMethod;
 
 
-public abstract class TemplateClass {
+public abstract class TemplateMethodClass {
     public final void printLetter(String fileName) {
         String[] fileContent = readFile(fileName);
         String[] reconstruct = reconstructLetter(fileContent);
