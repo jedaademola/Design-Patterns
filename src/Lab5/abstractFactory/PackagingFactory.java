@@ -3,8 +3,9 @@
  */
 package Lab5.abstractFactory;
 
-import mum.asd.abstractfactory.packaging.Packaging;
-import mum.asd.abstractfactory.type.PackagingType;
+
+import Lab5.abstractFactory.packCost.Packaging;
+import Lab5.abstractFactory.type.PackagingType;
 
 public abstract class PackagingFactory {
     public abstract Packaging getPackaing(PackagingType packType);

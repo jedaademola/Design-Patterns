@@ -3,11 +3,11 @@
  */
 package Lab5.abstractFactory;
 
-import mum.asd.abstractfactory.packaging.HardPlastic;
-import mum.asd.abstractfactory.packaging.HolidaySurprise;
-import mum.asd.abstractfactory.packaging.MerchantCollection;
-import mum.asd.abstractfactory.packaging.Packaging;
-import mum.asd.abstractfactory.type.PackagingType;
+import Lab5.abstractFactory.packCost.HardPlastic;
+import Lab5.abstractFactory.packCost.HolidaySurprise;
+import Lab5.abstractFactory.packCost.MerchantCollection;
+import Lab5.abstractFactory.packCost.Packaging;
+import Lab5.abstractFactory.type.PackagingType;
 
 public class BusinessFactory extends PackagingFactory {
 

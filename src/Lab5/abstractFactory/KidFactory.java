@@ -3,11 +3,12 @@
  */
 package Lab5.abstractFactory;
 
-import mum.asd.abstractfactory.packaging.Cartoon;
-import mum.asd.abstractfactory.packaging.HappyKid;
-import mum.asd.abstractfactory.packaging.Micky;
-import mum.asd.abstractfactory.packaging.Packaging;
-import mum.asd.abstractfactory.type.PackagingType;
+
+import Lab5.abstractFactory.packCost.Cartoon;
+import Lab5.abstractFactory.packCost.HappyKid;
+import Lab5.abstractFactory.packCost.Micky;
+import Lab5.abstractFactory.packCost.Packaging;
+import Lab5.abstractFactory.type.PackagingType;
 
 public class KidFactory extends PackagingFactory {
 

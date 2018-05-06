@@ -3,10 +3,11 @@
  */
 package Lab5.abstractFactory.structure;
 
+import Lab5.abstractFactory.type.PackType;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import mum.asd.abstractfactory.type.PackType;
 
 public class GiftPack {
     private List<GiftItem> giftItems = new ArrayList<GiftItem>();

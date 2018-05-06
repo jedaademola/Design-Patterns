@@ -3,8 +3,9 @@
  */
 package Lab5.abstractFactory.structure;
 
-import mum.asd.abstractfactory.packaging.Packaging;
-import mum.asd.abstractfactory.type.PackagingType;
+
+import Lab5.abstractFactory.packCost.Packaging;
+import Lab5.abstractFactory.type.PackagingType;
 
 public class GiftItem {
     private String giftId;

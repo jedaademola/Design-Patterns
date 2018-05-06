@@ -3,12 +3,13 @@
  */
 package Lab5.abstractFactory;
 
-import mum.asd.abstractfactory.model.Address;
-import mum.asd.abstractfactory.model.GiftItem;
-import mum.asd.abstractfactory.model.GiftPack;
-import mum.asd.abstractfactory.producer.FactoryProducer;
-import mum.asd.abstractfactory.type.PackType;
-import mum.asd.abstractfactory.type.PackagingType;
+
+import Lab5.abstractFactory.abstractFactory.FactoryProducer;
+import Lab5.abstractFactory.structure.Address;
+import Lab5.abstractFactory.structure.GiftItem;
+import Lab5.abstractFactory.structure.GiftPack;
+import Lab5.abstractFactory.type.PackType;
+import Lab5.abstractFactory.type.PackagingType;
 
 public class App {
 
