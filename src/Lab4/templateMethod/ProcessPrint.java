@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class ProcessPrint extends TemplateClass {
+public class ProcessPrint extends TemplateMethodClass {
     public static final Logger log = Logger.getGlobal();
 
     @Override

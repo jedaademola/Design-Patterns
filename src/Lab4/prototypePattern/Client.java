@@ -25,7 +25,7 @@ public class Client {
         System.out.println(clonedEmp);
 
         System.out.println("-------after making changes----");
-        clonedEmp.setFirstname("New Name");
+        clonedEmp.setFirstname("Luckyman");
         System.out.println(e);
         System.out.println(clonedEmp);
     }
