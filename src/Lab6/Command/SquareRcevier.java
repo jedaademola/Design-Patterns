@@ -33,14 +33,15 @@ public class SquareRcevier {
     }
 
     public String[][] scale(int scale) {
-        int newSize = square.length * scale;
+        int sizeScale = square.length * scale;
 
-        square = new String[newSize][newSize];
+        square = new String[sizeScale][sizeScale];
 
-        for (int i = 0; i < newSize; i++) {
-            for (int j = 0; j < newSize; j++) {
-                square[i][j] = "+";
-                System.out.print(square[i][j]);
+        for (int a = 0; a < sizeScale; a++) {
+
+            for (int b = 0; b < sizeScale; b++) {
+                square[a][b] = "+";
+                System.out.print(square[a][b]);
             }
 
             System.out.println();
